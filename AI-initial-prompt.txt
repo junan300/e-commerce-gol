@@ -1,0 +1,121 @@
+Prompt for AI Agent: E-Commerce Site for “SOLGOL”
+
+⸻
+
+1. Project Overview
+	•	Brand Name: SOLGOL
+	•	Purpose: An e-commerce site for branded merchandise.
+	•	Brand Ecosystem Context:
+	•	Part of a sports betting platform, with a .com site (main platform) and a .app site (family-friendly AI/soccer/Web3 gateway).
+	•	Target audience includes sports betting enthusiasts and crypto users.
+
+⸻
+
+2. Design Requirements
+	•	Color Scheme: Purple, Black, and Light Blue
+	•	Design Style: Futuristic, crypto-inspired, modern
+	•	Brand Assets:
+	•	Use stock logos or placeholders (since no official logos can be provided).
+	•	Any placeholder typography guidelines (if brand typography is unavailable).
+	•	Responsive Design: Must function seamlessly on mobile, tablet, and desktop.
+
+⸻
+
+3. Functionality Requirements
+	1.	Product Display:
+	•	Use placeholder product images (stock photos).
+	•	Provide short descriptions for each item.
+	2.	Shopping Cart Functionality:
+	•	Ability to add/remove items and update quantities.
+	3.	Checkout Process (Mock or Simulated):
+	•	Since real payment integration may not be in place yet, just show a simulated checkout flow.
+	4.	User Account System (Optional):
+	•	If time permits, include basic registration/login.
+	5.	Newsletter Signup:
+	•	Capture user emails for future announcements.
+	6.	Contact Form:
+	•	Basic form for inquiries or customer support.
+
+⸻
+
+4. Technical Specifications
+	1.	Frontend Framework:
+	•	React.js (aligned with .com platform for consistency).
+	2.	File Organization:
+	•	Clear component structure (Header, Footer, Product cards, etc.).
+	•	Organized assets, hooks, and pages for maintainability.
+	3.	Documentation:
+	•	Inline code comments.
+	•	Separate documentation file summarizing architecture and usage.
+	4.	Modern JavaScript Practices (ES6+).
+	5.	CSS Framework:
+	•	Tailwind CSS or an equivalent (highly customizable; good for futuristic designs).
+
+⸻
+
+5. Detailed Development Plan
+
+5.1 Project Setup
+	1.	Create a React application using Create React App or Next.js.
+	2.	Initialize a GitHub repository for version control.
+	3.	Set up your folder structure (e.g., /components, /assets, /hooks, /pages).
+
+5.2 Core Components Development
+	1.	Header/Navigation Bar:
+	•	Display brand placeholder logo and link to main sections.
+	2.	Footer:
+	•	Basic info, placeholder links for Terms/Privacy, contact details.
+	3.	Product Cards/Listings:
+	•	Display product image, name, price, brief description.
+	•	Use placeholders or sample data.
+	4.	Product Detail Page:
+	•	Show extended description, additional images, add-to-cart button.
+	5.	Cart Functionality:
+	•	Summaries of added items, total amount, and an option to proceed to checkout.
+	6.	Mock Checkout Flow:
+	•	Steps for shipping info, payment method (simulated), order review.
+
+5.3 Styling System
+	1.	Theme with Brand Colors: Purple, black, light blue.
+	2.	Reusable UI Components: Buttons, form inputs, modals, etc.
+	3.	Responsive Design Patterns: Ensure proper scaling and layout on different screen sizes.
+
+5.4 Mock Backend Integration
+	1.	Use a local JSON file for initial product data.
+	2.	Structure data in a way that can be easily replaced by an API.
+
+5.5 Future-Proofing
+	1.	Document API Integration Points for real payment gateways or product data.
+	2.	Placeholder Components for Future Functionality (e.g., crypto checkout integration).
+	3.	Inline Comments to guide future additions like Solana/crypto integrations.
+
+⸻
+
+6. Handover Requirements
+
+At the end of the development process, please provide:
+	1.	Complete Codebase:
+	•	Ensure it’s neatly organized and well-commented.
+	2.	Installation & Setup Instructions:
+	•	How to clone, install dependencies, and run locally.
+	3.	Guide for Adding Products:
+	•	Explanation of how to modify the JSON/data source and images.
+	4.	Explanation of Component Structure:
+	•	Short summary of each key component and how they interact.
+	5.	Next Steps & Integration Recommendations:
+	•	Potential expansions, real payment gateway integration, deeper crypto functionalities.
+
+⸻
+
+7. Implementation Technologies
+	•	Frontend Framework: React.js
+	•	Styling: Tailwind CSS (or equivalent)
+	•	State Management: Redux or Context API
+	•	Animations: Framer Motion (optional)
+	•	Future Payment Integration: Structure for Stripe or PayPal
+	•	Deployment: Vercel or Netlify for quick setup and CI/CD
+
+⸻
+
+Instructions to the AI Agent:
+Please use the above details to create a futuristic, crypto-inspired e-commerce site prototype for “SOLGOL.” Rely on placeholder logos and stock photography for all branding assets. Follow responsive best practices, organize your code for easy future updates, and provide thorough documentation for every step.
